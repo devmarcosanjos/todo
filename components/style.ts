@@ -11,7 +11,7 @@ export const styles = StyleSheet.create({
     container: {
         backgroundColor: theme.background,
         flex: 1,
-        
+
     },
     containerButton: {
         backgroundColor: theme.button,
@@ -40,5 +40,31 @@ export const styles = StyleSheet.create({
         marginTop: 10, 
         borderRadius: 8,
         color: theme.text,
+    },
+    description: {
+        fontSize: 16,
+        fontWeight: "300",
+        color: "#AAA",
+        marginTop: 8,
+    },
+    card: {
+        justifyContent: "center",
+        height: 80,
+        alignSelf: "stretch",
+        backgroundColor: "#111",
+        borderRadius: 16,
+        marginTop: 16,
+        paddingHorizontal: 16,
+    },
+    checkbox: {
+        width: 36,
+        height: 36,
+        backgroundColor: theme.button,
+        borderRadius: 8,
+        position: "absolute",
+        right: 16,
+        top: 22,
+        alignItems: "center",
+        justifyContent: "center",
     }
 })

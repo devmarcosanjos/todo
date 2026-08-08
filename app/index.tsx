@@ -2,6 +2,7 @@ import { styles } from "@/components/style";
 import SuperButton from "@/components/SuperButton";
 import { SuperTextInput } from "@/components/SuperInput";
 import { SuperTitle } from "@/components/SuperTitle";
+import TodoItem from "@/components/TodoItem";
 import { useState } from "react";
 import { View } from "react-native";
 
@@ -20,6 +21,8 @@ export default function Index() {
       <SuperButton title="novo item" onPress={() => console.log("Button pressed!")} />
 
       <SuperTitle  title={newItem} />
+
+      <TodoItem />
    </View>
   );
 }
