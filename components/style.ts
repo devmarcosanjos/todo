@@ -8,6 +8,9 @@ export const theme = {
 }
 
 export const styles = StyleSheet.create({
+    container: {
+        backgroundColor: theme.background,
+    },
     containerButton: {
         backgroundColor: theme.button,
         height: 60,
@@ -24,7 +27,7 @@ export const styles = StyleSheet.create({
     },
     title: {
         fontSize: 30,
-        fontWeight: "bold",
+        fontWeight: "200",
         color: theme.text,
     }
 })
